@@ -63,6 +63,10 @@ footer h2{
     margin: 0px;
     text-align: center;
 }
+footer a{
+    text-decoration: none;
+    color: black;
+}
 #webgrafia{
     display: flex;
     justify-content: space-between;
