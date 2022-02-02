@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+
+#menu {
+    
+   background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    }
+    
+#logo img{
+
+    
+    border: black 1px solid;
+    width: 180px;
+}
+a{
+
+    font-size: x-large;
+     
+     text-decoration: none;
+     color: black;
+     margin: 10px;
+}
+#enlaces{
+    width: 60vw;
+    justify-content: space-around;
+    padding: 1%;
+    display: flex;
+    
+    border: black 1px solid;
+}
