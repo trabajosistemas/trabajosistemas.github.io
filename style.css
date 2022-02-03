@@ -34,6 +34,11 @@ nav a{
     font-size: large;
     text-align: center;
 }
+nav a:hover{
+    background-color: orange;
+    color: black;
+    font-size: larger;
+}
 main{
     padding: 1rem;
     background-color: white;
@@ -44,11 +49,20 @@ h1{
 details{
     cursor: pointer;
 }
-details div{
+details>div{
     width: 90%;
     margin: auto;
     padding: 1px 1rem;
     background-color: rgba(00, 00, 00, 5%);
+}
+details li{
+    list-style: none;
+}
+.lista li{
+    list-style: square;
+}
+dd{
+    margin-bottom: 0.5rem;
 }
 li{
     margin: 0.5rem;
@@ -62,6 +76,8 @@ footer{
 footer h2{
     margin: 0px;
     text-align: center;
+    width: 100%;
+    background-color: rgba(00, 00, 00, 0%);
 }
 footer a{
     text-decoration: none;
@@ -79,6 +95,11 @@ footer a{
 }
 .centro{
     width: 20% !important;
+}
+.centro ul{
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 #webgrafia p{
     text-align: center;
@@ -105,4 +126,23 @@ footer ul{
     right: 0;
     width: 100%;
     height: 100%;
+}
+h1,h2,h3,h4{
+    padding: 0.5rem;
+    background-color: rgba(229, 231, 67, 0.5);
+    width: fit-content;
+}
+.flotante{
+    float: right;
+}
+.imagen{
+    width: 60%;
+    margin: 1rem auto 0rem;
+}
+.imagen img{
+    width: 100%;
+}
+div.contenido{
+    width: 95%;
+    margin: auto;
 }
