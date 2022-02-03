@@ -49,9 +49,14 @@ h1{
 details{
     cursor: pointer;
 }
+summary:hover{
+    background-color: rgba(183, 130, 102, 70%);
+    width: fit-content;
+    padding: 0.5rem;
+}
 details>div{
     width: 90%;
-    margin: auto;
+    margin: 0.5rem auto 0rem;
     padding: 1px 1rem;
     background-color: rgba(00, 00, 00, 5%);
 }
@@ -70,10 +75,12 @@ li{
 footer{
     margin: 0px;
     padding: 1rem;
-    background-color: orange;
+    background-color: rgb(183 130 102);
+    border: 0.5rem solid black;
 
 }
 footer h2{
+    border: 0.2rem solid black;
     margin: 0px;
     text-align: center;
     width: 100%;
@@ -129,11 +136,13 @@ footer ul{
 }
 h1,h2,h3,h4{
     padding: 0.5rem;
-    background-color: rgba(229, 231, 67, 0.5);
+    background-color: rgba(183, 130, 102, 50%);
     width: fit-content;
 }
 .flotante{
     float: right;
+    padding: 0.5rem;
+    width: 30%;
 }
 .imagen{
     width: 60%;
@@ -141,6 +150,13 @@ h1,h2,h3,h4{
 }
 .imagen img{
     width: 100%;
+}
+.imagenes{
+    width: 90%;
+    display: flex;
+}
+.imagenes .imagen{
+    width: 33%;
 }
 div.contenido{
     width: 95%;
